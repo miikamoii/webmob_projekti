@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+  <link rel="stylesheet" href="compact-gallery.css">
+  <title>Valokuvat</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0px; opacity: 0.95; background-image: url(kuvat/taustakuva2.jpg); background-position: 40%; background-size: cover; ">
+    <h1 style="padding-left:50px; color: white; text-shadow: 0px 0px 6px rgba(255,255,255,0.7);">Valokuvat</h1>
+
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <!-- <span class="navbar-text" style="text-shadow: 0px 0px 6px rgba(255,255,255,0.7);">Alasivut</span>-->
+      <a style="padding-left:25px" class="navbar-brand"><img src="kuvat/camicon.svg"></a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Etusivu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="omat_valokuvat.html">Valokuvat</a>
+        </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="ohjeet.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Ohjeet
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="ohjeet.html">Ohjeet</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="ohjeet.html#sommittelu">Sommittelu</a>
+            <a class="dropdown-item" href="ohjeet.html#valaistus">Valaistus</a>
+            <a class="dropdown-item" href="ohjeet.html#aukko">Aukko</a>
+            <a class="dropdown-item" href="ohjeet.html#valotusaika">Valotusaika</a>
+            <a class="dropdown-item" href="ohjeet.html#iso">ISO</a>
+            <a class="dropdown-item" href="ohjeet.html#yleinen">Yleinen</a>
+          </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="ohjeet.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Arvostelut
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="arvostelut.html">Arvostelut</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="arvostelut.html#kamerat">Kamerat</a>
+            <a class="dropdown-item" href="arvostelut.html#objektiivit">Objektiivit</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="maxwidth">
+    <h2 style="padding-left:25px; padding-top: 25px" class="h2">Valokuvat</h2>
+    <p class="p">Tällä sivulla on ottamiani kuvia noin kahdeksan kuukauden ajanjaksolta (kesäkuu 2018 - helmikuu 2019)</p>
+  </div>
+  <hr>
+  <section class="gallery-block compact-gallery">
+    <div class="container">
+      <div class="heading">
+        <h2>Galleria</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P2026951.jpg">
+            <img class="img-fluid image" src="galleria/P2026951.jpg">
+            <span class="description">
+              <span class="description-heading">Aamunkoitto</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P7070128.jpg">
+            <img class="img-fluid image" src="galleria/P7070128.jpg">
+            <span class="description">
+              <span class="description-heading">Ajelulla</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P7151053.jpg">
+            <img class="img-fluid image" src="galleria/P7151053.jpg">
+            <span class="description">
+              <span class="description-heading">Kiihdytysajot</span>
+              <span class="description-body">Viro, Haapsalu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P7161203.jpg">
+            <img class="img-fluid image" src="galleria/P7161203.jpg">
+            <span class="description">
+              <span class="description-heading">Fiat fito</span>
+              <span class="description-body">Viro, Haapsalu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P7171295.jpg">
+            <img class="img-fluid image" src="galleria/P7171295.jpg">
+            <span class="description">
+              <span class="description-heading">Tupakalla</span>
+              <span class="description-body">Latvia, Riika</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P7171325.jpg">
+            <img class="img-fluid image" src="galleria/P7171325.jpg">
+            <span class="description">
+              <span class="description-heading">Moottoripyörällä Latviaan</span>
+              <span class="description-body">Latvia, Riika</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9013508.jpg">
+            <img class="img-fluid image" src="galleria/P9013508.jpg">
+            <span class="description">
+              <span class="description-heading">Mökin purolla</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9093798.jpg">
+            <img class="img-fluid image" src="galleria/P9093798.jpg">
+            <span class="description">
+              <span class="description-heading">Pariskunta kuvailemassa</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9093814.jpg">
+            <img class="img-fluid image" src="galleria/P9093814.jpg">
+            <span class="description">
+              <span class="description-heading">Auringonlasku</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA195087.jpg">
+            <img class="img-fluid image" src="galleria/PA195087.jpg">
+            <span class="description">
+              <span class="description-heading">Kotimatkalla</span>
+              <span class="description-body">Japani, Tokio</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA205219.jpg">
+            <img class="img-fluid image" src="galleria/PA205219.jpg">
+            <span class="description">
+              <span class="description-heading">Joutsen</span>
+              <span class="description-body">Japani, Tokio</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9093827.jpg">
+            <img class="img-fluid image" src="galleria/P9093827.jpg">
+            <span class="description">
+              <span class="description-heading">Aurinko horisontissa</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9153958.jpg">
+            <img class="img-fluid image" src="galleria/P9153958.jpg">
+            <span class="description">
+              <span class="description-heading">Levähdystauko</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9214111.jpg">
+            <img class="img-fluid image" src="galleria/P9214111.jpg">
+            <span class="description">
+              <span class="description-heading">Reissulla Turkuun</span>
+              <span class="description-body">Hyvinkää</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9224159.jpg">
+            <img class="img-fluid image" src="galleria/P9224159.jpg">
+            <span class="description">
+              <span class="description-heading">Turun kaduilla</span>
+              <span class="description-body">Turku</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9294248.jpg">
+            <img class="img-fluid image" src="galleria/P9294248.jpg">
+            <span class="description">
+              <span class="description-heading">Tähtitaivas</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9294330.jpg">
+            <img class="img-fluid image" src="galleria/P9294330.jpg">
+            <span class="description">
+              <span class="description-heading">Soutureissulla</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/P9294431.jpg">
+            <img class="img-fluid image" src="galleria/P9294431.jpg">
+            <span class="description">
+              <span class="description-heading">Naapurin mökki</span>
+              <span class="description-body">Joensuu, Eno</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA074586.jpg">
+            <img class="img-fluid image" src="galleria/PA074586.jpg">
+            <span class="description">
+              <span class="description-heading">Revontulet</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA144839.jpg">
+            <img class="img-fluid image" src="galleria/PA144839.jpg">
+            <span class="description">
+              <span class="description-heading">Leipäkiviä etsimässä</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA184968.jpg">
+            <img class="img-fluid image" src="galleria/PA184968.jpg">
+            <span class="description">
+              <span class="description-heading">Japanin sähköverkosto</span>
+              <span class="description-body">Japani, Tokio</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA205363.jpg">
+            <img class="img-fluid image" src="galleria/PA205363.jpg">
+            <span class="description">
+              <span class="description-heading">Taustavalot</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA215462.jpg">
+            <img class="img-fluid image" src="galleria/PA215462.jpg">
+            <span class="description">
+              <span class="description-heading">Dotonbori</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225516.jpg">
+            <img class="img-fluid image" src="galleria/PA225516.jpg">
+            <span class="description">
+              <span class="description-heading">Ötökkä</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225641.jpg">
+            <img class="img-fluid image" src="galleria/PA225641.jpg">
+            <span class="description">
+              <span class="description-heading">Osakan linna</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225741.jpg">
+            <img class="img-fluid image" src="galleria/PA225741.jpg">
+            <span class="description">
+              <span class="description-heading">Meduusa</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225748.jpg">
+            <img class="img-fluid image" src="galleria/PA225748.jpg">
+            <span class="description">
+              <span class="description-heading">Akvaariopuistossa</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225762.jpg">
+            <img class="img-fluid image" src="galleria/PA225762.jpg">
+            <span class="description">
+              <span class="description-heading">Piraija</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245926.jpg">
+            <img class="img-fluid image" src="galleria/PA245926.jpg">
+            <span class="description">
+              <span class="description-heading">Arashiyama</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245899.jpg">
+            <img class="img-fluid image" src="galleria/PA245899.jpg">
+            <span class="description">
+              <span class="description-heading">Apinavuorella</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245905.jpg">
+            <img class="img-fluid image" src="galleria/PA245905.jpg">
+            <span class="description">
+              <span class="description-heading">Kirppujen etsintä</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245915.jpg">
+            <img class="img-fluid image" src="galleria/PA245915.jpg">
+            <span class="description">
+              <span class="description-heading">Japanin viidakkoa</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245917.jpg">
+            <img class="img-fluid image" src="galleria/PA245917.jpg">
+            <span class="description">
+              <span class="description-heading">Vuorta kiipeämässä</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA225806.jpg">
+            <img class="img-fluid image" src="galleria/PA225806.jpg">
+            <span class="description">
+              <span class="description-heading">Osaka yöllä</span>
+              <span class="description-body">Japani, Osaka</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245943.jpg">
+            <img class="img-fluid image" src="galleria/PA245943.jpg">
+            <span class="description">
+              <span class="description-heading">Kävelyllä</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245949.jpg">
+            <img class="img-fluid image" src="galleria/PA245949.jpg">
+            <span class="description">
+              <span class="description-heading">Bambumetsälle menossa</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245953.jpg">
+            <img class="img-fluid image" src="galleria/PA245953.jpg">
+            <span class="description">
+              <span class="description-heading">Bambut</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245962.jpg">
+            <img class="img-fluid image" src="galleria/PA245962.jpg">
+            <span class="description">
+              <span class="description-heading">Arashiyaman miljöö</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245970.jpg">
+            <img class="img-fluid image" src="galleria/PA245970.jpg">
+            <span class="description">
+              <span class="description-heading">Oranssit valot</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245971.jpg">
+            <img class="img-fluid image" src="galleria/PA245971.jpg">
+            <span class="description">
+              <span class="description-heading">Sillat</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA245979.jpg">
+            <img class="img-fluid image" src="galleria/PA245979.jpg">
+            <span class="description">
+              <span class="description-heading">Valojuovat</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA246007.jpg">
+            <img class="img-fluid image" src="galleria/PA246007.jpg">
+            <span class="description">
+              <span class="description-heading">Kimonotytöt</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA246031.jpg">
+            <img class="img-fluid image" src="galleria/PA246031.jpg">
+            <span class="description">
+              <span class="description-heading">Torii-portit</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA246036.jpg">
+            <img class="img-fluid image" src="galleria/PA246036.jpg">
+            <span class="description">
+              <span class="description-heading">Pimeällä kujalla</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA246059.jpg">
+            <img class="img-fluid image" src="galleria/PA246059.jpg">
+            <span class="description">
+              <span class="description-heading">Temppeli</span>
+              <span class="description-body">Japani, Kioto</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA286141.jpg">
+            <img class="img-fluid image" src="galleria/PA286141.jpg">
+            <span class="description">
+              <span class="description-heading">Shibuyan kaduilla #1</span>
+              <span class="description-body">Japani, Tokio</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PA286143.jpg">
+            <img class="img-fluid image" src="galleria/PA286143.jpg">
+            <span class="description">
+              <span class="description-heading">Shibuyan kaduilla #2</span>
+              <span class="description-body">Japani, Tokio</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PB256279.jpg">
+            <img class="img-fluid image" src="galleria/PB256279.jpg">
+            <span class="description">
+              <span class="description-heading">Koli</span>
+              <span class="description-body">Lieksa</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PC016303.jpg">
+            <img class="img-fluid image" src="galleria/PC016303.jpg">
+            <span class="description">
+              <span class="description-heading">Rytmihäirikköjen konsertti #1</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PC016542.jpg">
+            <img class="img-fluid image" src="galleria/PC016542.jpg">
+            <span class="description">
+              <span class="description-heading">Rytmihäirikköjen konsertti #2</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PC016440.jpg">
+            <img class="img-fluid image" src="galleria/PC016440.jpg">
+            <span class="description">
+              <span class="description-heading">Rytmihäirikköjen konsertti #3</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        <!--<div class="col-md-6 col-lg-4 item zoom-on-hover">
+          <a class="lightbox, lazy"; href="galleria/PC246728.jpg">
+            <img class="img-fluid image" src="galleria/PC246728.jpg">
+            <span class="description">
+              <span class="description-heading">Jouluenkeli</span>
+              <span class="description-body">Joensuu</span>
+            </span>
+          </a>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div>
+    <p style="text-align:center">Linkki kameraan jota käytän</p>
+    <a href="https://www.power.fi/kamerat/jarjestelmakamerat/olympus-e-pl8-pancake-musta/p-488960/">
+    <img style="width:100%; max-width:400px" class="center" src="kuvat/kuvalinkki.jpeg">
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.compact-gallery', {
+      animation: 'slideIn'
+    });
+  </script>
+
+
+
+
+
+</body>
+
+</html>
